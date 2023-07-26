@@ -182,3 +182,7 @@ button{
 .bot1:hover{
     background-color: rgb(255, 251, 126);
 }
+
+@media only screen and (max-width: 768px) {
+    width: 100%;
+  }
