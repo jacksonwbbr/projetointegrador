@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam</title>
+    <link rel="stylesheet" href="aaa.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Câmera</h1>
+            <h1>Leitora</h1>
+        </div>
+
+        <ul>
+            <li>
+                <a href="sobre.html">Sobre a câmera leitora</a>
+            </li>
+            <li>
+                <a href="criadores.html">Criadores</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Clique no botão para ler!</h2>
+            <p id="p">Clique no botão vermelho para abrir a câmera.Clique no botão amarelo para tirar uma foto.</p>
+
+        </aside>
+
+        <aside id="i2">
+            <button class="botcap">Abrir Câmera</button>
+            <button class="bot1">Tirar foto</button>
+            <div></div>
+            <p class="resultado"></p>
+            <div></div>
+            <video autoplay></video>
+            <canvas></canvas>
+            
+            <script src='https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js'></script>
+            <script src="./scriptvideo.js"> </script>
+        </aside>
+    </main>
+
+    
+
+</body>
+</html>
